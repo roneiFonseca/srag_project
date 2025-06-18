@@ -8,5 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
-#csv files
+
+# Data files
 *.csv
+*.png
+
+# Screenshots and raw data
+src/dados/*/screenshots/
+src/dados/*/raw/
