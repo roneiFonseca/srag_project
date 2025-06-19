@@ -12,7 +12,9 @@ wheels/
 # Data files
 *.csv
 *.png
+*.xlsx
 
 # Screenshots and raw data
 src/dados/*/screenshots/
 src/dados/*/raw/
+dados_vacina/*
