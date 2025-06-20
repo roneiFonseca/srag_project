@@ -11,7 +11,7 @@ import re
 import csv
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-PDF_DIR = os.path.join(SCRIPT_DIR, 'dados')
+PDF_DIR = os.path.join(SCRIPT_DIR, 'dados/fvs_raw')
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, 'dados_processados')
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
