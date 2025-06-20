@@ -9,9 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 # Definir pasta para salvar os dados
-DADOS_DIR = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dados_vacina"
-)
+DADOS_DIR = os.path.join(os.path.dirname(__file__), "vacinometro/dados")
 
 # Garantir que a pasta existe
 os.makedirs(DADOS_DIR, exist_ok=True)
