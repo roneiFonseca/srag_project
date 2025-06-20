@@ -3,6 +3,8 @@ import json
 import pandas as pd
 import requests
 
+
+
 # Configurações da API
 base_url = "https://imunizacao-es.saude.gov.br/_search"
 scroll_url = "https://imunizacao-es.saude.gov.br/_search/scroll"
